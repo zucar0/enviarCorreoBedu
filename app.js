@@ -35,3 +35,4 @@ const sendEmail = (event) => {     // el correo que yo ponga envialo a ese corre
 for (let i = 0; i < $forms.length; i++) {     // un bucle que me permite enviar de nuevo otro correo 
   $forms[i].addEventListener("submit", sendEmail);
 }
+//Se borraron espacios para eviar errores
